@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 40px;
+    
+}
+button {
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+#Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.flex {
+    display: flex;
+}
+#jogador {
+    display: none;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.tabuleiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+#jogo {
+    margin-top: 10px;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botoes{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
